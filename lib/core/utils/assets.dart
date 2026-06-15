@@ -2,7 +2,7 @@
 class Assets {
   Assets._();
 
-  static const String edit2 = 'assets/images/edit-2.svg';
+  static const String edit2 = 'assets/images/edit-2.png';
   static const String explainImage = 'assets/images/explain_image.png';
   static const String exportImage = 'assets/images/export_image.png';
   static const String microphoneImage = 'assets/images/microphone_image.png';

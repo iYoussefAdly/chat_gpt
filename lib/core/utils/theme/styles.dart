@@ -55,6 +55,6 @@ abstract class Styles {
   static const TextStyle textStyleChatInput = TextStyle(
     fontSize: 13,
     fontWeight: FontWeight.bold,
-    color: AppColors.kPrimaryColor,
+    color:Color(0xff9E9E9E),
   );
 }

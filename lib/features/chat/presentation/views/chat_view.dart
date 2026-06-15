@@ -1,3 +1,4 @@
+import 'package:chat_gpt/features/chat/presentation/views/widgets/chat_view_body.dart';
 import 'package:flutter/material.dart';
 
 class ChatView extends StatelessWidget {
@@ -5,6 +6,8 @@ class ChatView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body:ChatViewBody(),
+    );
   }
 }
