@@ -1,3 +1,4 @@
+import 'package:chat_gpt/features/chat/presentation/views/chat_view.dart';
 import 'package:chat_gpt/features/splash&onBoarding/presentation/views/onBoarding_view.dart';
 import 'package:chat_gpt/features/splash&onBoarding/presentation/views/splash_view.dart';
 import 'package:go_router/go_router.dart';
@@ -5,6 +6,7 @@ import 'package:go_router/go_router.dart';
 abstract class AppRouter {
   static const kSplashView = "/SplashView";
   static const kOnBoardingView = "/OnBoardingView";
+  static const kChatView = "/ChatView";
   static final router = GoRouter(
     routes: [
       GoRoute(
@@ -17,6 +19,12 @@ abstract class AppRouter {
         path: kOnBoardingView,
         builder: (context, state) {
           return OnboardingView();
+        },
+      ),
+      GoRoute(
+        path: kChatView,
+        builder: (context, state) {
+          return ChatView();
         },
       ),
     ],
